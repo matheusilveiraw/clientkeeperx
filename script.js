@@ -235,7 +235,7 @@ function carregarListaEnderecos() {
     tr.appendChild(tdCidade);
     tr.appendChild(tdEstado);
     tr.appendChild(tdPais);
-    tr.appendChild(tdCliente);
+    // tr.appendChild(tdCliente);
 
     corpoListaEnderecos.appendChild(tr);
   }
