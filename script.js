@@ -283,6 +283,15 @@ function carregarListaClientes() {
 
     tdCelular.textContent = celularFormatado;
 
+    const tdEndereco = document.createElement("td");
+
+    let enderecoData = alasql(`SELECT e.* FROM cadastros_clientes c JOIN cadastros_enderecos e ON c.endereco_principal = e.id WHERE c.id = ${cliente.endereco_principal}`)[0];
+
+    let endereco = enderecoData.rua + ', ' + enderecoData.cidade + ', ' + enderecoData.estado
+
+    tdEndereco.textContent = endereco;
+
+
     //basicamente criei os elementos aqui em cima e dei os valores
     //abaixo eu crio eles dentro de um tr no html e depois eu boto todos dentro da tbody que to chamando de corpoListaClientes
 
@@ -292,6 +301,7 @@ function carregarListaClientes() {
     tr.appendChild(tdDataNascimento);
     tr.appendChild(tdTelefone);
     tr.appendChild(tdCelular);
+    tr.appendChild(tdEndereco);
 
     corpoListaClientes.appendChild(tr);
   });
