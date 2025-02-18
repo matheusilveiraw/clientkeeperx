@@ -1,0 +1,28 @@
+.erro-fonte { 
+    font-size: xx-small;
+}
+
+/* esses dois parametros abaixam era para quebrar os valores grandes nas tabelas mas só funcionou para a data que tem os traços */
+/* não quebra os valores que não tem nada abaixo... */
+table {
+    table-layout: auto;
+    width: 100%; 
+}
+
+@media (max-width: 760px) {
+    tr {
+        font-size: 12px; 
+    }
+}
+
+@media (max-width: 473px) {
+    tr {
+        font-size: 8px; 
+    }
+}
+
+@media (max-width: 576px) {
+    .esconde-pequeno {
+      display: none;
+    }
+  }
