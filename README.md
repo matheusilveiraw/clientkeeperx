@@ -27,4 +27,4 @@ O desafio proposto consistia em criar um sistema que atendesse aos seguintes req
 - **Listagem e Consulta:** Visualização e pesquisa dos registros cadastrados.
 - **Interface Responsiva:** Design adaptável, garantindo usabilidade em diferentes dispositivos.
 
-** Vocês pode testar meu projeto pelo Github pages: https://lnkd.in/dFur9kay **
+**Vocês pode testar meu projeto pelo Github pages: https://lnkd.in/dFur9kay**
