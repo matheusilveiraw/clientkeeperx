@@ -1,4 +1,4 @@
-# Projeto Teste Técnico – JavaScript & AlaSQL
+# Projeto Clientkeeperx – JavaScript & AlaSQL
 
 Este projeto foi desenvolvido como parte de um teste técnico e tem como objetivo demonstrar a utilização de JavaScript puro aliado à biblioteca AlaSQL (que permite o uso de comandos SQL diretamente no JavaScript). Foi uma ótima oportunidade para relembrar e aprofundar conhecimentos em JavaScript e nas demais tecnologias envolvidas.
 
